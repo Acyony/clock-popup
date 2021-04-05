@@ -5,8 +5,8 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #3f3e3d;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3f3e3d;
 }
 
 .popup-container {
@@ -14,51 +14,41 @@ body {
   padding: 1rem 2rem;
   height: 8rem;
   width: 20rem;
-  background-color: #ee9ca7; 
+  background-color: #ee9ca7;
   position: fixed;
   right: 2rem;
   bottom: 2rem;
 }
 
 .popup-container::after {
-    content: ' ';
-    position: absolute;
-    width: 2rem;
-    height: 2rem; 
-    background-color: #ee9ca7;
-    left: calc(50% - 1rem);
-    bottom: -1rem;
-    transform: rotate(45deg);
+  content: " ";
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color: #ee9ca7;
+  left: calc(50% - 1rem);
+  bottom: -1rem;
+  transform: rotate(45deg);
 }
 
 .popup-container-title {
-    text-align: center;
-    font-size: 1.5rem;
-    margin-bottom: 1.2rem;
-   
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
 }
-
 
 .clock-box-info {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
-
-/* .clock-box {
-    justify-content: center;
-    align-items: center;
-} */
 
 .clock-box-info-time,
 .fa-clock {
-    font-size: 2.8125rem;
+  font-size: 2.8125rem;
 }
 
 .fa-clock {
-    color: yellow;
-    margin-right: 1.5rem;
-    
-   
+  color: yellow;
+  margin-right: 1.5rem;
 }
